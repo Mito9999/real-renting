@@ -1,0 +1,26 @@
+{
+  "name": "Real Renting",
+  "short_name": "Real Renting",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "theme_color": "#246eb9",
+  "background_color": "#1b1b1e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo_96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

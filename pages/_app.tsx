@@ -1,9 +1,8 @@
-import { ChakraProvider } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <>
       <Head>
         <title>Real Renting</title>
         <meta
@@ -17,6 +16,6 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/logo_96x96.png" />
       </Head>
       <Component {...pageProps} />
-    </ChakraProvider>
+    </>
   );
 }
